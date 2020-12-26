@@ -14,6 +14,8 @@ body {
     color: #FFFFFF;
 }
 
+.social:hover{ color: #222222; }
+
 .contentLink {
     padding: 3px;
     color: #FFFFFF;
