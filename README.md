@@ -1,3 +1,3 @@
-To-do-list:
-Write Education, Skills, and Hobbies
-Implement Sidebars
+To-do-list:<br />
+Write Education, Skills, and Hobbies<br />
+Implement Sidebars<br />
