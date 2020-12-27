@@ -71,6 +71,21 @@ body {
     
 }
 
+.choraleImage {
+    margin-right: 20px;
+    height: 80px;
+    float: left;
+    border-radius: 0%;
+    
+}
+
+.writingImage {
+    margin-right: 20px;
+    width: 100px;
+    float: left;
+    border-radius: 0%;
+}
+
 .introTexts{
     margin-left: 25px;
     margin-right: 25px;
