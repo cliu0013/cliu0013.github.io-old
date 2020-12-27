@@ -8,6 +8,19 @@ hr {
     
 }
 
+h3:hover {
+    color: #B31B1B;
+}
+
+#name:hover {
+    color: #222222;
+}
+
+#intro:hover {
+    color: #222222;
+}
+
+
 .footer {
     text-align: center;
     padding: 3px;
@@ -112,26 +125,53 @@ hr {
   
 /* Style the links inside the navigation bar */
 .topnav a {
-float: left;
-color: #222222;
-text-align: center;
-padding: 5px 16px;
-text-decoration: none;
-font-size: 17px;
+    float: left;
+    color: #222222;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .topnav a:hover {
-color: #B31B1B;
+    color: #B31B1B;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-background-color: #ddd;
-color: #B31B1B;
+    background-color: #ddd;
+    color: #B31B1B;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-background-color: #222222;
-color: #FFFFFF;
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+#skillTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+#skillTable td, #customers th {
+    border: 1px solid #222222;
+    padding: 8px;
+}
+
+#skillTable tr:nth-child(even){
+    background-color: #222222;
+}
+
+#skillTable tr:hover {
+    background-color: #B31B1B;
+}
+
+#skillTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #B31B1B;
+    color: white;
 }
