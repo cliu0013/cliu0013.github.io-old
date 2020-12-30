@@ -3,9 +3,16 @@ body {
 }
 
 hr {
-    border-color: #FFFFFF;
-    border-width: 3px;
+    border-color: #B31B1B;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    width: 5%;
     
+}
+
+hr:hover{
+    border-color: #FFFFFF;
 }
 
 h3:hover {
